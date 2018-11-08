@@ -1,0 +1,38 @@
+{
+  "name": "mars",
+  "displayName": "Mars",
+  "description": "An elegant and flavored dark theme",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#070E13",
+    "theme": "dark"
+  },
+  "publisher": "EliverLara",
+  "author": {
+    "name": "ELiver Lara",
+    "url": "https://github.com/EliverLara",
+    "email": "eliverlara@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/EliverLara/Mars"
+  },
+  "scripts": {
+    "build": "node --experimental-modules src/index.mjs"
+  },
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mars",
+        "uiTheme": "vs-dark",
+        "path": "./dist/color-theme.json"
+      }
+    ]
+  }
+}
